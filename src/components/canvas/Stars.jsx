@@ -14,7 +14,7 @@ const StyledCanvasWrapper = styled.div`
 const Stars = (props) => {
     const ref = useRef();
     const [sphere] = useState(() =>
-        random.inSphere(new Float32Array(5000), { radius: 1.2 })
+        random.inSphere(new Float32Array(5000), { radius: 1 })
     );
 
     useFrame((state, delta) => {
@@ -28,7 +28,7 @@ const Stars = (props) => {
             <PointMaterial
             transparent
             color="#f272c8"
-            size={0.002}
+            size={props.size}
             sizeAttenuation={true}
             depthWrite={false}
             />
@@ -37,12 +37,12 @@ const Stars = (props) => {
     );
 };
 
-const StyledStarsCanvas = () => {
+const StyledStarsCanvas = ({size}) => {
   return (
     <StyledCanvasWrapper>
         <Canvas camera={{ position: [0, 0, 1] }}>
             <Suspense fallback={null}>
-                <Stars />
+                <Stars size={size} />
             </Suspense>
             <Preload all />
         </Canvas>

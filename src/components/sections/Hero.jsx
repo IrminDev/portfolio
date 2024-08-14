@@ -220,7 +220,7 @@ const Hero = () => {
     return (
         <HeroContainer id="About">
             <HeroBg>
-                <StarCanvas />
+                <StarCanvas size={0.002} />
                 <HeroBgAnimation />
             </HeroBg>
 

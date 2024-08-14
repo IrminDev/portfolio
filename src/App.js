@@ -19,6 +19,8 @@ const Body = styled.div`
   width: 100%;
   overflow-x: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
 `;
 
 const Wrapper = styled.div`
@@ -43,9 +45,9 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Body>
-          <StartCanvas />
+          <Hero />
           <div>
-            <Hero />
+          <StartCanvas size={0.0003} />
             <Wrapper>
               <Skills />
               <Experience />
@@ -57,8 +59,8 @@ function App() {
             </Wrapper>
             <Wrapper>
               <Contact />
-              <Footer />
             </Wrapper>
+            <Footer />
           </div>
           <ToastContainer
             position="bottom-right"
