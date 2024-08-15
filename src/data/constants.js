@@ -467,7 +467,7 @@ export const achievements = [
     id: 3,
     competition: "Physics III Contest",
     place: "1st place",
-    date: "November 2021",
+    date: "Nov 2021",
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJYx1arX8LtH3fIgeq6j0I0olECsphA-TzCQ&s",
     desc: "Participated in the Physics III Contest, where I secured the first position by demonstrating problem-solving skills.",
   },

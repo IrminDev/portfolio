@@ -39,6 +39,7 @@ const Wrapper = styled.div`
 const Desc = styled.div`
     font-size: 1.2rem;
     font-weight: 500;
+    padding: 0 20px;
     color: ${({ theme }) => theme.text_secondary};
     margin-bottom: 12px;
     @media screen and (max-width: 960px) {
