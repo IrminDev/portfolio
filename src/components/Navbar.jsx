@@ -44,7 +44,7 @@ const NavItems = styled.ul`
     align-items: center;
     gap: 32px;
     padding: 0 6px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 860px) {
         display: none;
     }
 `;
@@ -67,7 +67,7 @@ const ButtonContainer = styled.div`
     justify-content: end;
     align-items: center;
     padding: 0 6px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 860px) {
         display: none;
     }
 `;
@@ -97,7 +97,7 @@ const MobileIcon = styled.div`
     align-items: center;
     height: 100%;
     cursor: pointer;
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 861px) {
         display: none;
     }
 `;
