@@ -481,11 +481,11 @@ export const achievements = [
   },
   {
     id: 4,
-    competition: "Metropolitan Physics Contest",
+    competition: "Metropolitan Physics Olympiad",
     place: "Honorable mention",
     date: "Sep 2022",
     img: "https://www.comunicacionsocial.uam.mx/identidaduam/images/el-emblema.jpg",
-    desc: "Participated in the Metropolitan Physics Contest, where I received an honorable mention by demonstrating problem-solving skills.",
+    desc: "Participated in the Metropolitan Physics Olympiad, where I received an honorable mention by demonstrating problem-solving skills.",
   },
   {
     id: 5,
